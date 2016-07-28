@@ -1,0 +1,3 @@
+[INFO] Installing E:\github2\SSO\Interceptor-api\pom.xml to C:\Users\__\.m2\repo
+sitory\Interceptor-api\Interceptor-api\1.0-SNAPSHOT\Interceptor-api-1.0-SNAPSHOT
+.pom

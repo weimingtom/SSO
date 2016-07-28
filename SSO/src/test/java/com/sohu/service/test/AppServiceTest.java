@@ -83,8 +83,10 @@ public class AppServiceTest {
     @Test
     public void findUserTest(){
         List<User> lists=UserService.findUser(15, 2);
+        if (lists != null) { 
         for (User user : lists) {
             logger.info(user.toString());
+        }
         }
     }
     @Test
@@ -95,8 +97,10 @@ public class AppServiceTest {
     @Test
     public void findGroupsByIdTest(){
         String[] urls=UserService.findGroupsById(4, 16);
+		if (urls != null) {
         for (String string : urls) {
             System.out.println(string);
         }
+		}
     }
 }

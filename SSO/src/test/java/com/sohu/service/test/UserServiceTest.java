@@ -39,7 +39,9 @@ public class UserServiceTest {
     @Test
     public void test2(){
        User user= template.get(User.class, 1L);
+	   if (user != null) {
        System.out.println(user.toString());
+	   }
     }
 
     @Test
